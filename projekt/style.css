@@ -59,8 +59,8 @@ nav a:hover {
 }
 
 img {
-    width: 80%; /* Nastavuje velikost obrázků */
-    max-width: 300px; /* Maximální šířka obrázků */
+    width: 120%; /* Nastavuje velikost obrázků */
+    max-width: 400px; /* Maximální šířka obrázků */
     height: auto;
     margin-bottom: 20px;
 }
