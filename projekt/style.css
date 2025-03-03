@@ -53,7 +53,7 @@ nav a:hover {
 /* Úprava pro 4 obrázky ve čtverci */
 .left {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 sloupce pro čtverec */
+    grid-template-columns: 2fr 3fr; /* 2 sloupce pro čtverec */
     gap: 10px;
     width: 50%;
 }
