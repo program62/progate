@@ -1,35 +1,121 @@
 <!DOCTYPE html>
 <html lang="cs">
-
 <head>
     <link rel="icon" href="favicon.jpg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lovná zvěř v ČR</title>
+    <style>
+        /* Centering the header */
+        header {
+            text-align: center; /* This centers the text inside the header */
+            margin-top: 50px; /* Adds some space from the top of the page */
+        }
+
+        h1 {
+            font-size: 36px; /* Adjust the size as needed */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4e1c1; /* Světlá hnědá barva */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Navigační lišta */
+        nav {
+            background-color: #8b5e3c; /* Tmavší hnědá pro lištu */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hlavní obsah */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .left, .right {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        /* Úprava pro 4 obrázky ve čtverci */
+        .left {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 sloupce pro čtverec */
+            gap: 10px;
+            width: 50%;
+        }
+
+        img {
+            width: 80%; /* Nastavuje velikost obrázků */
+            max-width: 300px; /* Maximální šířka obrázků */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: black; /* Text černé barvy pro lepší čitelnost */
+            font-size: 18px;
+            text-align: justify;
+            max-width: 80%;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        pre {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
-
 <body>
-
     <!-- Navigační lišta -->
     <nav>
         <a href="zviratka.html">Velká zvěř</a>
         <a href="mala_lovna_zver_v_cr.html">Malá zvěř</a>
         <a href="o_nas.html">O MĚ</a>
     </nav>
+    
     <header>
         <h1>Malá lovná zvěř v ČR</h1>
     </header>
+
     <!-- Hlavní obsah -->
-
-
     <div class="content">
         <div class="left">
             <img src="https://www.orso.cz/foto/foto_30002/img00001.jpg" alt="Obrázek 1">
-            <img src="https://lh3.googleusercontent.com/proxy/f_3FQAGPP9vxCX2CohA8X8wqosttx5CFD2sDaAgNuHCPE3LsfI5jcbVasA-fP-8rmjF5aWeh_sUBO3s28IXkYRjygsCySEq_P_dKm_c"
-                alt="Obrázek 2">
+            <img src="https://www.naturfoto.cz/fullsize/ostatni/zajic-polni-97700.jpg" alt="Zajíc polní">
+            <img src="https://lh3.googleusercontent.com/proxy/f_3FQAGPP9vxCX2CohA8X8wqosttx5CFD2sDaAgNuHCPE3LsfI5jcbVasA-fP-8rmjF5aWeh_sUBO3s28IXkYRjygsCySEq_P_dKm_c" alt="Obrázek 2">
             <img src="https://olomouc.rozhlas.cz/sites/default/files/images/02428132.jpeg" alt="Obrázek 3">
         </div>
 
@@ -65,7 +151,7 @@
                 rozmanitost.</p>
         </div>
     </div>
+    
     <footer>Pouze pro studijní účely</footer>
 </body>
-
 </html>
