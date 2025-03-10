@@ -50,13 +50,7 @@ nav a:hover {
     align-items: center;
 }
 
-/* Úprava pro 4 obrázky ve čtverci */
-.left {
-    display: grid;
-    grid-template-columns: 2fr 3fr; /* 2 sloupce pro čtverec */
-    gap: 10px;
-    width: 50%;
-}
+
 
 img {
     width: 120%; /* Nastavuje velikost obrázků */
